@@ -58,9 +58,9 @@ To avoid overly optimistic results due to spatial autocorrelation, the dataset i
 
 The model learns a mapping from aerial imagery to habitat classes at pixel level:
 
-\[
+$$
 f_\theta : \mathbb{R}^{H \times W \times 3} \rightarrow \mathbb{R}^{H \times W \times K}
-\]
+$$
 
 where \(K\) is the number of habitat classes. A softmax function is applied per pixel, and the predicted class is the argmax over the class probabilities.
 
