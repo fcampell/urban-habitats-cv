@@ -1,0 +1,89 @@
+{
+  "architectures": [
+    "SegformerForSemanticSegmentation"
+  ],
+  "attention_probs_dropout_prob": 0.0,
+  "classifier_dropout_prob": 0.1,
+  "decoder_hidden_size": 256,
+  "depths": [
+    2,
+    2,
+    2,
+    2
+  ],
+  "downsampling_rates": [
+    1,
+    4,
+    8,
+    16
+  ],
+  "drop_path_rate": 0.1,
+  "dtype": "float32",
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.0,
+  "hidden_sizes": [
+    32,
+    64,
+    160,
+    256
+  ],
+  "id2label": {
+    "0": "Impervious / Built-up",
+    "1": "Forest & Dense Canopy",
+    "2": "Urban Trees & Bushes",
+    "3": "Managed Green Spaces",
+    "4": "Standard Grassland",
+    "5": "Ecologically Valuable Meadow",
+    "6": "Agriculture & Orchards",
+    "7": "Water Bodies"
+  },
+  "image_size": 224,
+  "initializer_range": 0.02,
+  "label2id": {
+    "Agriculture & Orchards": 6,
+    "Ecologically Valuable Meadow": 5,
+    "Forest & Dense Canopy": 1,
+    "Impervious / Built-up": 0,
+    "Managed Green Spaces": 3,
+    "Standard Grassland": 4,
+    "Urban Trees & Bushes": 2,
+    "Water Bodies": 7
+  },
+  "layer_norm_eps": 1e-06,
+  "mlp_ratios": [
+    4,
+    4,
+    4,
+    4
+  ],
+  "model_type": "segformer",
+  "num_attention_heads": [
+    1,
+    2,
+    5,
+    8
+  ],
+  "num_channels": 3,
+  "num_encoder_blocks": 4,
+  "patch_sizes": [
+    7,
+    3,
+    3,
+    3
+  ],
+  "reshape_last_stage": true,
+  "semantic_loss_ignore_index": 255,
+  "sr_ratios": [
+    8,
+    4,
+    2,
+    1
+  ],
+  "strides": [
+    4,
+    2,
+    2,
+    2
+  ],
+  "transformers_version": "5.2.0"
+}
