@@ -1,0 +1,12 @@
+{
+    "version_tag": "run_b0_01",
+    "num_epochs": 5,
+    "learning_rate": 6e-05,
+    "train_batch_size": 2,
+    "val_batch_size": 2,
+    "subset_ratio": 0.2,
+    "initial_crop_size": 512,
+    "target_input_resolution": 256,
+    "gradient_accumulation_steps": 4,
+    "use_fp16": true
+}
