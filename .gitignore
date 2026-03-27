@@ -1,6 +1,8 @@
 data/
 01_data/
 metadata/
+*.pth
+models
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
