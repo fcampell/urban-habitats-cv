@@ -37,13 +37,13 @@ Performance was evaluated on a 15% hold-out test set (1,500 images). We measured
 
 ### Test Set Performance
 
-| Segmentation Task | Model Architecture | Average mIoU |
-| :--- | :--- | :--- |
-| **Built-Up Area** | SegFormer B3 (Fine-tuned) | **0.74** |
-| **Grassland** | SegFormer B3 (Fine-tuned) | **0.61** |
-| **Bushes & Trees** | SegFormer B3 (Fine-tuned) | **0.73** |
-| **Multi-Class** | SegFormer B3 (Fine-tuned) | **0.53** |
-| **Multi-Class** | Ensemble (Modular 1-3) | **0.51** |
+| Segmentation Task | Model Architecture | Average mIoU |plt |
+| :--- | :--- | :--- | :--- |
+| **Built-Up Area** | SegFormer B3 (Fine-tuned) | **0.74** | ![plt](https://github.com/fcampell/urban-habitats-cv/blob/main/images/plot.png) |
+| **Grassland** | SegFormer B3 (Fine-tuned) | **0.61** | NA |
+| **Bushes & Trees** | SegFormer B3 (Fine-tuned) | **0.73** | NA |
+| **Multi-Class** | SegFormer B3 (Fine-tuned) | **0.53** | NA |
+| **Multi-Class** | Ensemble (Modular 1-3) | **0.51** | NA |
 
 ### Key Findings
 
