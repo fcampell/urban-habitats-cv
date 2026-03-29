@@ -70,7 +70,9 @@ The model pipeline is built to run on Google Collab to use GPU's for training. W
 7'500 training samples, most of the models take about 2 hours to train 10 epochs on a `A100 GPU`.
 
 ## 7\. Reference
+
 Xie, E., Wang, W., Yu, Z., Anandkumar, A., Alvarez, J. M., & Luo, P. (2021). SegFormer: Simple and Efficient Design for Semantic Segmentation with Transformers. NeurIPS.
+
 -----
 
 **Authors:** Fadri Campell & Marcel Amrein
