@@ -37,13 +37,7 @@ Performance was evaluated on a 15% hold-out test set (1,500 images). We measured
 
 ### Test Set Performance
 
-| Segmentation Task | Model Architecture | Average mIoU |
-| :--- | :--- | :--- |
-| **Built-Up Area** | SegFormer B3 (Fine-tuned) | **0.74** |
-| **Grassland** | SegFormer B3 (Fine-tuned) | **0.61** |
-| **Bushes & Trees** | SegFormer B3 (Fine-tuned) | **0.73** |
-| **Multi-Class** | SegFormer B3 (Fine-tuned) | **0.53** |
-| **Multi-Class** | Ensemble (Modular 1-3) | **0.51** |
+![table](https://github.com/fcampell/urban-habitats-cv/blob/main/images/table.png)
 
 ### Key Findings
 
@@ -51,6 +45,12 @@ Performance was evaluated on a 15% hold-out test set (1,500 images). We measured
   * **The "Shadow" Challenge:** The slightly lower score for Grassland (0.61) is largely attributed to spectral similarities between shadows on grass and shadows on asphalt.
   * **Unified vs. Ensemble:** The fine-tuned multi-class model slightly outperformed the hierarchical ensemble (0.53 vs 0.51), indicating that the model is capable of learning class boundaries internally better than a fixed manual priority rule. Altough in some samples where there was a high class imbalance (only built up area with small patches of green), the rule based ensemble predictions performed better, as the model focussing only on segmenting higher vegetation found these patches with better accuracy than the multi-class model.
 
+
+### Example Predictions
+
+![sample_1](https://github.com/fcampell/urban-habitats-cv/blob/main/images/sample_1.png)
+
+![sample_2](https://github.com/fcampell/urban-habitats-cv/blob/main/images/sample_2.png)
 
 ## 5\. Repository Structure
 
