@@ -1,7 +1,3 @@
-This is a comprehensive `README.md` that bridges your initial project proposal with the final technical implementation and results. It is structured to be "GitHub-ready," professional, and informative for anyone looking to replicate your work.
-
------
-
 # Semantic Segmentation of Urban Habitat Types: The Zürich Case Study
 
 This repository contains an end-to-end pipeline for mapping urban biodiversity and land cover at a 10cm resolution. By leveraging **SegFormer (B3)** transformers and the high-quality open geodata of the **City of Zürich**, we transition from manual, resource-intensive biotope surveys to automated, pixel-level habitat classification.
