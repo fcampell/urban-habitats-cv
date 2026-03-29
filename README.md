@@ -12,7 +12,7 @@ The project follows a **Global Raster Strategy**, optimizing for spatial consist
 
 ### Pipeline Flowchart
 
-![flowchart](./archive/flowchart.jpg)
+![flowchart](https://github.com/fcampell/urban-habitats-cv/blob/main/archive/flowchart.jpg)
 
 1.  **Spatial Anchoring:** We used 10,000 building centroids from the Swiss Federal Register (GWR/GWZ) as coordinates to sample $100m \times 100m$ patches.
 2.  **Global Rasterization:** Instead of cropping vectors, we rasterized the entire city's biotope and tree-height data into a unified 10cm grid.
