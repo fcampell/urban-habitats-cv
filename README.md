@@ -76,5 +76,7 @@ Xie, E., Wang, W., Yu, Z., Anandkumar, A., Alvarez, J. M., & Luo, P. (2021). Seg
 -----
 
 **Authors:** Fadri Campell & Marcel Amrein
+
 **Technical Assistance:** Assisted by Gemini
+
 **License:** MIT
